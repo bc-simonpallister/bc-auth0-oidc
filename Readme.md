@@ -4,6 +4,8 @@ This is a simple Express example (ie, not production-ready) of how Auth0 OIDC ca
 
 This example uses only Google login and creates the user in BigCommerce if they do not already exist. Further work required to add additional.
 
+Uses [Auth0's Open ID Connect](https://github.com/auth0/express-openid-connect)
+
 ## Setup 
 
 Copy .env.template to .env ander complete details:
